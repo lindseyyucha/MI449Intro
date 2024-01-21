@@ -22,22 +22,22 @@ body {
 
 img {
     border-radius: 50%; 
-    max-width: 200px;
+    max-width: 230px;
 }
 
 a.selected img {
     border: 8px solid white; 
-    margin: -4px; 
+    margin: -8px; 
 }
 
-body.page-earth a[href="index.html"] img {
+/*body.page-earth a[href="index.html"] img {
     border: 8px solid white; 
-    margin: -4px; 
+    margin: -8px; 
 }
 
 body.page-moon a[href="moon.html"] img {
     border: 8px solid white; 
-    margin: -4px; 
+    margin: -8px; 
 }
-
+*/
 
