@@ -11,6 +11,9 @@ body {
 
 .image-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
 }
 
 .image-container a {
@@ -28,14 +31,15 @@ a.selected img {
 }
 
 body.page-earth a[href="index.html"] img {
-    max-width: 150px;
     border: 8px solid white; 
     margin: -4px; 
+    max-width: 150px;
 }
 
 body.page-moon a[href="moon.html"] img {
     border: 8px solid white; 
     margin: -4px; 
+    max-width: 120px;
 }
 
 
