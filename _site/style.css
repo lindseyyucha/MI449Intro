@@ -19,20 +19,23 @@ body {
 
 img {
     border-radius: 50%; 
+    max-width: 130px;
 }
 
 a.selected img {
     border: 8px solid white; 
+    margin: -4px; 
 }
 
 body.page-earth a[href="index.html"] img {
-    max-width: 50px;
+    max-width: 150px;
     border: 8px solid white; 
+    margin: -4px; 
 }
 
 body.page-moon a[href="moon.html"] img {
-    max-width: 25px;
     border: 8px solid white; 
+    margin: -4px; 
 }
 
 
