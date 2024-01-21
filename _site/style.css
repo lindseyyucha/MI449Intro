@@ -4,9 +4,10 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /*align-items: center;
     justify-content: center;
-    margin: 0;
+    margin:0;*/
+    padding: 20px;
 }
 
 .image-container {
@@ -30,14 +31,4 @@ a.selected img {
     margin: -8px; 
 }
 
-/*body.page-earth a[href="index.html"] img {
-    border: 8px solid white; 
-    margin: -8px; 
-}
-
-body.page-moon a[href="moon.html"] img {
-    border: 8px solid white; 
-    margin: -8px; 
-}
-*/
 
