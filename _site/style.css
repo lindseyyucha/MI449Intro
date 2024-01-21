@@ -22,7 +22,7 @@ body {
 
 img {
     border-radius: 50%; 
-    max-width: 130px;
+    max-width: 200px;
 }
 
 a.selected img {
@@ -33,13 +33,11 @@ a.selected img {
 body.page-earth a[href="index.html"] img {
     border: 8px solid white; 
     margin: -4px; 
-    max-width: 150px;
 }
 
 body.page-moon a[href="moon.html"] img {
     border: 8px solid white; 
     margin: -4px; 
-    max-width: 120px;
 }
 
 
