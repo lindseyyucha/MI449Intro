@@ -22,17 +22,17 @@ img {
 }
 
 a.selected img {
-    border: 2px solid white; 
+    border: 8px solid white; 
 }
 
 body.page-earth a[href="index.html"] img {
-    max-width: 130px;
-    border: 2px solid white; 
+    max-width: 100px;
+    border: 8px solid white; 
 }
 
 body.page-moon a[href="moon.html"] img {
-    max-width: 100px;
-    border: 2px solid white; 
+    max-width: 50px;
+    border: 8px solid white; 
 }
 
 
