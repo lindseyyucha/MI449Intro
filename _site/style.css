@@ -18,7 +18,6 @@ body {
 }
 
 img {
-    max-width: 150px; 
     border-radius: 50%; 
 }
 
@@ -27,9 +26,16 @@ a.selected img {
 }
 
 body.page-earth a[href="index.html"] img {
+    max-width: 150px;
     border: 2px solid white; 
 }
 
 body.page-moon a[href="moon.html"] img {
+    max-width: 120px;
     border: 2px solid white; 
+}
+
+
+h1 {
+    text-align: left;
 }
