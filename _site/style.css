@@ -2,6 +2,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #202D3F;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
 }
 
 .image-container {
@@ -13,12 +19,18 @@ body {
 }
 
 img {
-    width: 100%; 
     max-width: 150px; 
     border-radius: 50%; 
-    border: 2px solid white; 
 }
 
 a.selected img {
+    border: 2px solid white; 
+}
+
+body.page-earth a[href="index.html"] img {
+    border: 2px solid white; 
+}
+
+body.page-moon a[href="moon.html"] img {
     border: 2px solid white; 
 }
